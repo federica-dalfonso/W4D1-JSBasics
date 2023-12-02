@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img id="logo-img" src="img/logo.png" alt="logo job search">
+        </div>
+
+        <div class="input-research">
+            <div class="input-container">
+                <label for="jobRole" class="labels">Che lavoro cerchi?</label>
+                <input type="text" placeholder="Professione o parola chiave" id="jobRole" size="80" value=""/>
+            </div>
+            <div class="input-container">
+                <label for="jobLocation" class="labels">Dove?</label>
+                <input type="text" placeholder="Città, regione o Stato" id="jobLocation" size="80" value=""/>
+            </div>
+
+            <div class="input-container">
+                <button type="button" id="buttonSearch">Cerca annunci</button>
+            </div>
+        </div>
+
+        <div class="table-box">
+            <table id="outable">
+            </table>
+        </div>   
+    </div>   
+    <footer id="footer">
+        <address class="address-txt">SearchJob Snc. <br>via Roma, 1 - 00001 Roma</address>
+    </footer> 
+
+<script src="coding.js"></script>
+
+</body>
+</html>

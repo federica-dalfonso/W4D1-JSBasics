@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-img {
+    width: 300px;
+}
+
+.input-research, #outable {
+    border: 1px groove #8395a77e;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    margin: 15px;
+    align-self: center;
+}
+
+.labels {
+    font-weight: 700;
+    display: block;
+    padding-bottom: 7px;
+}
+
+#job-role, #job-location {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px groove #8395a7;
+}
+
+.evidence {
+    width: 600px;
+    background-color: #48dafb9f;
+}
+
+#button-search {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    width: 150px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none; 
+    background-color: #48dbfb;
+    color: white;
+}
+
+#footer {
+    background-color: #576574;
+    height: 50px;
+}
+
+.address-txt {
+    padding: 5px 10px;
+    color: white;
+    font-weight: 400;
+}
